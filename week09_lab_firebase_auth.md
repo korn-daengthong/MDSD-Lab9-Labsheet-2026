@@ -37,8 +37,11 @@
 > ✅ **Checkpoint 1.1** ถ่ายภาพหน้าจอ Firebase Console ที่แสดงหน้า Project Overview ของโปรเจกต์ที่สร้างเสร็จแล้ว
 
 ```text
-บันทึกรูปผลลัพธ์ที่นี่
+
+
 ```
+<img width="1366" height="649" alt="image" src="https://github.com/user-attachments/assets/4183af7e-5a00-4db6-a275-ba86a244304d" />
+
 
 ### ขั้นตอนที่ 1.2: 🔧 ทำตามขั้นตอน — ติดตั้งเครื่องมือและเชื่อมโปรเจกต์ด้วย FlutterFire CLI
 
