@@ -538,6 +538,15 @@ Widget build(BuildContext context) {
 ```text
 บันทึกรูปผลลัพธ์ที่นี่ (3 ภาพ) และคำอธิบาย
 ```
+<img width="1080" height="2160" alt="image" src="https://github.com/user-attachments/assets/88e256bb-ba05-441c-84c3-9b5040b9a05a" />
+<img width="1080" height="2160" alt="image" src="https://github.com/user-attachments/assets/8877d71b-3d88-4e03-a531-72c66390c5b3" />
+<img width="1080" height="2160" alt="image" src="https://github.com/user-attachments/assets/80786417-d94c-4491-8d57-7dbdcd790b52" />
+
+เราไม่ต้องใช้ Navigator.push หรือ Navigator.pop สลับหน้าจอไปมาให้วุ่นวาย เพราะ StreamBuilder จะทำหน้าที่คอยเฝ้าสังเกตการณ์สถานะล็อกอินผ่าน FirebaseAuth.instance.authStateChanges() อยู่ตลอดเวลา
+
+หลักการทำงานคือ เมื่อผู้ใช้กดล็อกอินสำเร็จ (หรือกดออกจากระบบ) สถานะใน Firebase จะเปลี่ยนไป ทำให้ authStateChanges() ส่งสัญญาณใหม่ (มีข้อมูล User หรือเป็น null) ออกมาทันที พอ StreamBuilder ได้รับสัญญาณใหม่ มันจะทำการสร้าง UI หน้าจอ (build) ขึ้นมาใหม่โดยอัตโนมัติ
+
+ถ้ามีข้อมูล User ก็จะโชว์หน้า MainScaffold แต่ถ้าข้อมูลเป็น null ก็จะโชว์หน้า LoginPage ทำให้การสลับหน้าจอเกิดขึ้นเองตามสถานะปัจจุบันของผู้ใช้ โดยที่เราไม่ต้องเขียนโค้ดสั่งเปลี่ยนหน้าเองเลย
 
 ---
 
