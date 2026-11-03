@@ -395,6 +395,10 @@ avdmanager list avd
 <img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/0012b8e3-61c0-4bfe-9cc6-90fbc181c49c" />
 <img width="1364" height="651" alt="image" src="https://github.com/user-attachments/assets/de80fa07-162e-47d8-bd87-8d69efeb81d8" />
 
+-idToken (Identity Token): ทำหน้าที่เป็นบัตรยืนยันตัวตนของผู้ใช้ (Authentication) ภายในจะบรรจุข้อมูลพื้นฐานของบัญชีที่ถูกเข้ารหัสไว้ (เช่น อีเมล) Firebase จะใช้ค่านี้ไปตรวจสอบความถูกต้องกับเซิร์ฟเวอร์ของ Google ว่าผู้ใช้ผ่านการล็อกอินมาจริงและ Token ยังไม่หมดอายุ
+
+-accessToken: ทำหน้าที่เป็นกุญแจสำหรับขอสิทธิ์เข้าถึง (Authorization) บริการต่างๆ ของ Google (Google APIs) ในนามของบัญชีผู้ใช้
+
 ---
 
 ## ส่วนที่ 4: AuthGate — สลับหน้าจอตามสถานะผู้ใช้
