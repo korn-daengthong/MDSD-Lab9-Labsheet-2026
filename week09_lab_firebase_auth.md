@@ -647,6 +647,10 @@ final pages = [
 ```text
 บันทึกรูปผลลัพธ์ที่นี่ และคำอธิบาย
 ```
+<img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/f9fd2658-fc5d-4e56-8d5b-aeb0a3419158" />
+เนื่องจากผมไม่สามารถรับ storage ของ firebase ได้เนื่องจากมันต้องตัดบัตรเครดิตครับ
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/9ab6c98b-820b-458a-aa33-2df8632ceadc" />
+ทำได้ถึงตอนนี้ครับโพสขายไม่ได้ รูปไม่สามารถดึงเข้า storage ได้ครับ
 
 ---
 
