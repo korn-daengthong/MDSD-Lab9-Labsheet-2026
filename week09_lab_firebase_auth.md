@@ -170,6 +170,9 @@ Future<void> main() async {
 ```text
 บันทึกรูปผลลัพธ์ที่นี่ และคำอธิบายของแต่ละกรณี
 ```
+<img width="1366" height="646" alt="image" src="https://github.com/user-attachments/assets/06e2107a-ea79-4da0-9141-750c9a9c4501" />
+<img width="1080" height="2160" alt="image" src="https://github.com/user-attachments/assets/35b86b72-08b7-48ac-b7fe-121f97af363c" />
+<img width="1080" height="2160" alt="image" src="https://github.com/user-attachments/assets/f6621334-4934-46ee-b9e3-b3003668a48e" />
 
 ---
 
